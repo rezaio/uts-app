@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Daftar Buku</string>
+
+    <string name="this_activity">Ini adalah menu activity</string>
+    <string name="this_fragment">Ini adalah menu fragment</string>
+    <string name="search">Search</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+
+    <string name="search_hint">Masukkan kata</string>
+    <string name="heroes_name">Nama buku</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Sebuah Seni Untuk Bersikap Bodo Amat </item>
+        <item>Rich Dad Poor Dad</item>
+        <item>Buya Hamka Berbicara Tentang Perempuan</item>
+        <item>The Naked Traveler 8 </item>
+        <item>Mantappu Jiwa </item>
+        <item>Nanti Kita Bercerita Tentang Hari Ini </item>
+        <item>Merdeka Sejak Hati </item>
+        <item>Luka Kata </item>
+        <item>Orang-orang Biasa</item>
+    </string-array>
+    <string-array name="data_description">
+<item>Pada buku ini, Mark Manson menuliskan bahwa “Kunci untuk kehidupan
+    menjadi lebih baik bukan tentang mempedulikan banyak hal namun tentang
+    memperdulikan hal yang sederhana saja, hanya peduli tentang apa yang
+    benar dan mendesak dan penting”. Menurut Mark kebahagiaan tidak perlu
+    dengan hal yang penuh dengan kemewahan. Namun, kebahagiaan bisa muncul
+    dari hal-hal yang sederhana. </item>
+        <item>Dalam buku ini, Robert menceritakan bagaimana pelajaran dari
+            sudut pandang dua sosok ayah yang berhubungan dengan uang,
+            investasi dan ekonomi global. Kedua ayahnya tersebut berperan
+            kuat dalam mempengaruhi pola pikirnya tentang uang. Rich Dad
+            mewakili pola pikir orang kaya sementara poor dad mewakili
+            pola pikir orang miskin dalam memandang uang.  </item>
+        <item>Buya Hamka dalam buku ini menceritakan lebih jauh bahwa perempuan
+            sangat dimuliakan dalam Islam. Hal tersebut dijabarkan dengan dalil
+            Al-Qur’an, bahwa Allah adalah Maha Pengatur sebaik-baiknya, maupun
+            Al-Hadist.Bahkan sejarah hidup Rasulullah yang menjadi teladan sempurna,
+            untuk memuliakan seorang ibu yang telah melahirkan, serta cerita para
+            sahabat dan generasi saleh lainnya</item>
+        <item>Berisikan tentang catatan pribadi saat berwisata ke tempat-tempat
+            indah yang jarang diketahui orang, buku ini sangat cocok untuk kamu
+            yang anti-mainstream saat berpetualang. Buku ini juga berisikan
+            informasi dan pengalaman yang Trinity dapatkan sebagai travel writer. </item>
+        <item>RJerome Polin Sijabat dikenal sebagai seorang YouTuber dan selebriti internet,
+            dimana dirinya aktif membuat konten tentang kehidupan pribadinya selama di Jepang
+            dan cara belajar Bahasa Jepang. Sama halnya dengan buku ini yang berisi tentang
+            ‘latihan’ dalam menghadapi masalah atau persoalan di dalam hidupnya. Dimulai dari
+            kelahirannya, sampai keluarganya yang berusaha menyekolahkan di Jepang dengan kondisi ekonomi
+            yang terbatas saat itu. Tak hanya menceritakan sisi sedih atau keluhan saja, namun juga
+            semangat perjuangan Jerome Polin Sijabat. Buku ini sangat cocok untuk kamu yang sedang
+            membutuhkan motivasi dalam hidup.</item>
+        <item>Buku karya Marchella FP ini adalah buku visual grafis yang isinya kisah flash
+            fiction dari tokoh utama bernama Awan. Seorang perempuan yang takut akan lupa
+            rasanya menjadi muda. Oleh karena itu, dia menulis surat untuk masa depan yang
+            ditujukan untuk anaknya berisi tumbuh, patah, bertahan, berubah, menunggu dan
+            semua ketakutan yang dialami oleh manusia. Buku ini banyak sekali diminati
+            karena ada banyak untaian kata yang begitu menarik untuk diresapi dalam hati.
+            Buku ini bukan hanya membuat kita mengenal diri sendiri tetapi juga mengajak kita
+            untuk mengenal orang lain</item>
+        <item>Ahmad Fuadi merupakan seorang novelis, pekerja sosial, dan mantan wartawan dari Indonesia.
+            Novel pertamanya adalah novel Negeri 5 Menara yang termasuk buku pertama dari trilogi novelnya
+            . Karya fiksinya dinilai bisa menumbuhkan semangat untuk berprestasi.Begitu juga dengan buku ini,
+            dimana merupakan pencarian kemerdekaan dan cinta yang hilang. Petualangan ini digambarkan melalui
+            karakter Sanusi Pane dan Armijn Pane, mulai sejak kecil, penjual es lilin, sampai menjadi pahlawan
+            nasional. Baginya merdeka itu ketika berani jujur dan sederhana di tengah riuh rendah dunia</item>
+        <item>Kumpulan puisi Luka Kata ini menjadi bukti, loyalitas penyair yang Abadi. Dimana puisi adalah
+            laboratorium umat manusia dalam mengolah, memakai dan memahami bahasa. Makna-makna puisi yang
+            terdapat dalam buku ini juga mudah diresapi oleh pembaca. Terdapat waktu, jarak, Tuhan dan cinta
+            di dalamnya, sehingga memahami semua tema tersebut hingga melampaui indra. Sang kyai Muda Candra
+            menyampaikan semoga pembaca akan memperoleh berkah dari buku yang tekun hidayah. </item>
+        <item>Buku ini adalah karya ke-11 nya yang lagi-lagi masuk jajaran best seller kategori novel.
+            Pada buku ini, Andrea mengeksplorasi cerita yang berfokus pada genre kriminal, namun tetap
+            ada nuansa humoris. Para individu yang ada di dalamnya akan menghadapi sebuah
+            love-hate-relationship dalam lingkaran kejahatan dan penegak hukum yang tak terduga justru terpupuk.
+            Novel ini menggunakan Bahasa yang mudah dipahami dan sederhana. Penulis mengajak pembaca melihat
+            kisah orang-orang yang memiliki hidup yang sederhana, namun di balik kesederhanaan itu terdapat
+            kerja keras untuk menjalani hidup. </item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/seni</item>
+        <item>@drawable/rich</item>
+        <item>@drawable/buyahamka</item>
+        <item>@drawable/naked</item>
+        <item>@drawable/mantapujiwa</item>
+        <item>@drawable/nanticerita</item>
+        <item>@drawable/merdeka</item>
+        <item>@drawable/lukakata</item>
+        <item>@drawable/orangbiasa</item>
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bookmarks">ini adalah fragment bookmarks</string>
+    <string name="hello_ini_bookmarks">bookmarks</string>
+
+</resources>
