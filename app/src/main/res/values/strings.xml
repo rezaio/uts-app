@@ -94,5 +94,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bookmarks">ini adalah fragment bookmarks</string>
     <string name="hello_ini_bookmarks">bookmarks</string>
-
+    <string name="judul">Sebuah seni untuk bersikap bodo amat</string>
+    <string name="content_text">Pada buku ini, Mark Manson menuliskan bahwa
+        “Kunci untuk kehidupan menjadi lebih baik bukan tentang mempedulikan
+        banyak hal namun tentang memperdulikan hal yang sederhana saja, hanya
+        peduli tentang apa yang benar dan mendesak dan penting”. Menurut Mark
+        kebahagiaan tidak perlu dengan hal yang penuh dengan kemewahan. Namun,
+        kebahagiaan bisa muncul dari hal-hal yang sederhana.</string>
 </resources>

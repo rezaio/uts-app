@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,9 +15,15 @@ import java.util.ArrayList;
 public class ListBukuAdapter extends RecyclerView.Adapter<ListBukuAdapter.ListViewHolder> {
 
     private ArrayList<Buku> listBuku;
+    public ItemClickListener itemClickListener;
 
-    public ListBukuAdapter(ArrayList<Buku> list) {
+    public interface ItemClickListener {
+        void selectedItem(Buku buku);
+    }
+
+    public ListBukuAdapter(ArrayList<Buku> list, ItemClickListener itemClickListener) {
         this.listBuku = list;
+        this.itemClickListener = itemClickListener;
     }
 
     @NonNull
@@ -30,15 +35,16 @@ public class ListBukuAdapter extends RecyclerView.Adapter<ListBukuAdapter.ListVi
 
     @Override
     public void onBindViewHolder(@NonNull final ListViewHolder holder, int position) {
-        Buku Buku = listBuku.get(position);
-        holder.imgPhoto.setImageResource(Buku.getPhoto());
-        holder.tvName.setText(Buku.getName());
-        holder.tvDescription.setText(Buku.getDescription());
+        Buku buku = listBuku.get(position);
+        holder.imgPhoto.setImageResource(buku.getPhoto());
+        holder.tvName.setText(buku.getName());
+        holder.tvDescription.setText(buku.getDescription());
 
-        holder.itemView.setOnClickListener(v -> {
-            Toast.makeText(holder.itemView.getContext(), "Kamu memilih "
-                            + listBuku.get(holder.getAdapterPosition()).getName(),
-                    Toast.LENGTH_SHORT).show();
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                itemClickListener.selectedItem(buku);
+            }
         });
     }
 

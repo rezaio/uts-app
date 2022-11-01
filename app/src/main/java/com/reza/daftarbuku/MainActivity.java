@@ -39,33 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
         }
 
-//        rvHeroes = findViewById(R.id.rv_heroes);
-//        rvHeroes.setHasFixedSize(true);
-//
-//        list.addAll(getListHeroes());
-//        showRecyclerList();
-    }
 
-//    public ArrayList<Hero> getListHeroes() {
-//        String[] dataName = getResources().getStringArray(R.array.data_name);
-//        String[] dataDescription = getResources().getStringArray(R.array.data_description);
-//        TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
-//        ArrayList<Hero> listHero = new ArrayList<>();
-//        for (int i = 0; i < dataName.length; i++) {
-//            Hero hero = new Hero();
-//            hero.setName(dataName[i]);
-//            hero.setDescription(dataDescription[i]);
-//            hero.setPhoto(dataPhoto.getResourceId(i, -1));
-//            listHero.add(hero);
-//        }
-//        return listHero;
-//    }
-//
-//    private void showRecyclerList() {
-//        rvHeroes.setLayoutManager(new LinearLayoutManager(this));
-//        ListHeroAdapter listHeroAdapter = new ListHeroAdapter(list);
-//        rvHeroes.setAdapter(listHeroAdapter);
-//    }
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

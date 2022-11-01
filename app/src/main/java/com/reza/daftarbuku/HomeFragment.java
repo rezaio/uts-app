@@ -1,5 +1,7 @@
 package com.reza.daftarbuku;
 
+import android.content.Intent;
+
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements ListBukuAdapter.ItemClickListener{
     private RecyclerView rvHeroes;
     private ArrayList<Buku> list = new ArrayList<>();
 
@@ -55,13 +57,18 @@ public class HomeFragment extends Fragment {
 
     private void showRecyclerList() {
         rvHeroes.setLayoutManager(new LinearLayoutManager(getContext()));
-        ListBukuAdapter listHeroAdapter = new ListBukuAdapter(list);
-        rvHeroes.setAdapter(listHeroAdapter);
+        ListBukuAdapter listBukuAdapter = new ListBukuAdapter(list, this::selectedItem);
+        rvHeroes.setAdapter(listBukuAdapter);
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_home, container, false);
+    }
+
+    @Override
+    public void selectedItem(Buku buku) {
+        startActivity(new Intent(getContext(), TampilBuku.class).putExtra("data", buku));
     }
 
 }

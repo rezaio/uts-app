@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "NavigationDrawer"
+rootProject.name = "DaftarBuku"
 include ':app'
